@@ -21,11 +21,12 @@ h2{font-size:clamp(22px,3.6vw,36px)}
 p{line-height:1.9;margin:10px 0 0}
 footer{margin-top:30px;padding-top:13px;border-top:1px solid #b9b19d}
 a{color:#91412e;text-underline-offset:3px}
-.explore{display:inline-block;margin-top:.7rem}
+.explore{display:flex;flex-wrap:wrap;gap:.7rem 1.1rem;align-items:center;margin-top:.85rem}
+.explore a:first-child{background:#bc263e;color:#fff;padding:.56rem .86rem;border-radius:999px;font-weight:650;text-decoration:none}
 </style>
 <main>
   <header><h1>云上市集</h1><span>动画短片 · 34 秒</span></header>
-  <a class="explore" href="./live.html">进入实时 3D 漫游</a>
+  <div class="explore"><a href="./pocket.html">打开口袋漫游</a><a href="./live.html">实时 3D 跟拍</a></div>
   <video controls playsinline preload="none" poster="./poster.jpg" aria-label="播放短片《云上市集》" src="./market.mp4"></video>
   <article><h2>地址写到街口就够了</h2>
   <p>从天上看，红屋顶都长得很像。落地收好翅膀，我才认出那顶条纹雨棚。<br>
